@@ -43,7 +43,6 @@ angular.module('demo').factory('ExampleFactory', function($rootScope) {
 
 angular.module('demo').controller('EventController', function($scope) {
     $scope.$on('newTaskAddedEvent', function(event, data) {
-        console.log($scope);
-        alert(data);
+        $scope.msg = data.msg;
     });
 });
