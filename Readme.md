@@ -1,0 +1,1 @@
+#Updated module using events and factories with AngularJS
